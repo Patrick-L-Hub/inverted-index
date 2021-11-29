@@ -1,0 +1,5 @@
+file2 ="nverted ghghgh\\\tgreatt index script\n \
+	Given a set of files create \nan inverted index and\
+	a user interface to do a search\n using the index that \
+	returns a list of files that contain\n the query term/terms. \
+	the search index can be in memory."

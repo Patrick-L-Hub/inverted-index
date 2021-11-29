@@ -1,0 +1,6 @@
+
+C:\Users\pglab\Desktop\Python tutorial\Final Capstone>python InvIndex.py
+Traceback (most recent call last):
+  File "InvIndex.py", line 2, in <module>
+    imp
+NameError: name 'imp' is not defined

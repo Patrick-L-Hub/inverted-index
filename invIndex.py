@@ -12,11 +12,12 @@ def main():
     '''
     #find all .txt files in the working directory add location to filelist
     filelist = find_text_files()
-    # Inverted index to be created is a dictionary where keys are words and
-    # characters and values are the file name and word/character locations within the file
+    # Inverted index to be created is a dictionary where keys are words
+    # and values are the file name and word locations within the files
     invIndex = dict()
 
-    #check the words in each line to see if they are in the index
+    #check the words in each line to see if they are in the index if not add
+    #if so store locations
     for file in filelist:
         filename = file[0]
         openfile = open(file[1], mode ='r')

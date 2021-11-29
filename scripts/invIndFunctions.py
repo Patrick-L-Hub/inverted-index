@@ -29,7 +29,7 @@ def findWords(text_line):
 
     wordlist =[]
     line = text_line.split(" ")
-    #print("THE LINE ISSSSSSSSSS"+text_line)
+    
     for x in line:
         word =''
         index = 0

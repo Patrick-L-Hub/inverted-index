@@ -4,10 +4,11 @@ from scripts.invIndFunctions import find_text_files,findWords,wordSearch
 def main():
     '''
     Inverted index script
-    Given a set of files, create an inverted index and
-    a user command line interface to search for a word or character
+    Given a set of files, the script creates an inverted index and
+    prompts a user to search for a word or character
     using the index.  The index returns a list of files that contain
-    the query term/terms.  The search index can be in memory.
+    the query term/terms.  The users search request returns the files and
+    line/word numbers within the files where the word exits
     '''
     #find all .txt files in the working directory add location to filelist
     filelist = find_text_files()
